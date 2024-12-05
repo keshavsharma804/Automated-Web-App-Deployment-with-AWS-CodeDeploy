@@ -1,0 +1,34 @@
+<settings>
+
+<servers>
+  <server>
+    <id>dev-dev</id>
+    <username>aws</username>
+    <password>eyJ2ZXIiOjEsImlzdSI6MTczMzM2Mjc4OCwiZW5jIjoiQTEyOEdDTSIsInRhZyI6InZoTW15Nm53TTM3UTYyM3Q5RXdYLUEiLCJleHAiOjE3MzM0MDU5ODgsImFsZyI6IkExMjhHQ01LVyIsIml2IjoicE8tNXZUVVVMUnktVTNLcyJ9.QBvPVROb5niBt9YrRXauwg.qY5mZE_9BPDG9m58.byrGnKmp8tYNjssd70GHmzkwwNxGrY7uF8kH3wDUopfaZdo2c5MI5Fdg7q-3V2B3vDjDfdY97miuNDsoWVnjvKlcPKrqUvy6L6lLDHfD-y7PaQAfodpEFkenRe4ej5mHnrN1RJYqztCCVycZMIVyfzdn5GbJIAUxE364gexIi3ycfxJnUsePHaLe8Oew6aHFK-68rI4WqujD3sOFKBdgJaedqJa2qUlOwJvdYoNIkak1xAJaFB0BMGijWj5Y5RXsafv8_AY1JpteQ7dURy0B5nhFm0F7GOvlBT146-6Bw0XcYRUkE4mDOqD4SKLU-nWPzzQiNvTWjj_HgMyDj2TJSD5lai8lqVRC745mIFIHEsubcRWCVVRGkspvfxB_0TBlFJN7d1Uii2wNDcqeyvWeAW4mJVWOLzYux224ZW3rm5v3XqktCOdMfpm71rfqlBdDJU6dPxFcSU8_n8vhV8rl9zyIMO_bCioiLc50Vq-rr4KI8eVjdC3rX9E_hGUm9I_LOQ_I7N-MSm7wGYS57dZAD9bfioMAntRoBtd5FBaRTV4_uDYYO8GCg5cQqLBrfrSuo-dg9_h7onABSdJdIeeTsH7Q_AMoXKvsxpAqQpgS0JLyoINrOBDmqthB9VYBjhWi2RnTWu_RNMjI-47q4G-IwzGzIHNTtI_wqAUzBXzoRvUAul3uBXnbje1z8c17i54jnWQkvSkbZb_sib09lRU2nrF1bLsfgP6JywaWvzRvbMUuRAtLsH4sDwkhXGAkGsmFE3e2u_GZ5Lfo4iVkRJv0FYuE3jSTle73sCbxvA6oQmMLEdW8zdtdBlhjWM_5Gv715z9MV5g_EoqY73M8EGXDsZ3yNp4yCQSB1kpI3LywatPVLgNXzIt9gdzd-SfAWZnoGjioJSre4sasvFFbeJRBkcc-8ooQDpMjFHKl57C89ER4Q7Z7PUxUlterU80asq-HLCsWLUhRrFj8FOJkS8KXGxd9fqo.md3gWdTVI9vK5kI1b7hEuw</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>dev-dev</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>dev-dev</id>
+        <url>https://dev-742570272210.d.codeartifact.ap-south-1.amazonaws.com/maven/dev/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>dev-dev</id>
+    <name>dev-dev</name>
+    <url>https://dev-742570272210.d.codeartifact.ap-south-1.amazonaws.com/maven/dev/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+</settings>
