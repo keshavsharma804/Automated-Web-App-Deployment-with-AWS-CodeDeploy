@@ -1,0 +1,41 @@
+2024-12-05 02:56:05.180 [info] [main] Log level: Info
+2024-12-05 02:56:05.180 [info] [main] Validating found git in: "git"
+2024-12-05 02:56:05.180 [info] [main] Using git "2.40.1" from "git"
+2024-12-05 02:56:05.180 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-05 02:56:05.180 [info] > git rev-parse --show-toplevel [83ms]
+2024-12-05 02:56:05.180 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 02:56:05.180 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-05 02:56:05.182 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-12-05 02:56:05.194 [info] [Model][openRepository] Opened repository: /home/ec2-user/dev
+2024-12-05 02:56:05.222 [info] > git config --get commit.template [11ms]
+2024-12-05 02:56:05.222 [info] > git rev-parse --show-toplevel [10ms]
+2024-12-05 02:56:05.222 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 02:56:05.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-05 02:56:05.236 [info] > git status -z -uall [4ms]
+2024-12-05 02:56:05.237 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-05 02:56:05.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 02:56:05.241 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-05 02:56:05.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-05 02:56:05.259 [info] > git rev-parse --show-toplevel [19ms]
+2024-12-05 02:56:05.259 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 02:56:05.263 [info] > git config --get commit.template [8ms]
+2024-12-05 02:56:05.263 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-12-05 02:56:05.263 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-05 02:56:05.270 [info] > git rev-parse --show-toplevel [7ms]
+2024-12-05 02:56:05.270 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 02:56:05.272 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-12-05 02:56:05.275 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-05 02:56:05.275 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 02:56:05.279 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-05 02:56:05.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-05 02:56:05.310 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [35ms]
+2024-12-05 02:56:05.310 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-05 02:56:05.310 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-05 02:56:05.326 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-12-05 02:56:05.334 [info] > git status -z -uall [3ms]
+2024-12-05 02:56:05.335 [info] > git diff --name-status -z --diff-filter=ADMR f3eb504f92aad5a0c9228fb077488f3450ab9f81...refs/remotes/origin/main [7ms]
+2024-12-05 02:56:05.336 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-05 02:56:05.787 [info] > git check-ignore -v -z --stdin [4ms]
+2024-12-05 02:56:05.806 [info] > git show --textconv :buildspec.yml [4ms]
+2024-12-05 02:56:05.808 [info] > git ls-files --stage -- /home/ec2-user/dev/buildspec.yml [4ms]
+2024-12-05 02:56:05.812 [info] > git cat-file -s bc484f737f2ed4060d31df037d023abea4c0bc86 [2ms]

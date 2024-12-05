@@ -1,0 +1,17 @@
+{
+    "remote.SSH.remotePlatform": {
+        "ec2-13-235-74-219.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-201-81-228.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-3-111-39-226.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-201-78-115.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-3-109-203-52.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-235-86-27.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-3-108-250-99.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-3-110-108-212.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-201-185-189.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-233-153-54.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-201-185-205.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-43-204-147-162.ap-south-1.compute.amazonaws.com": "linux"
+    },
+    "files.autoSave": "afterDelay"
+}

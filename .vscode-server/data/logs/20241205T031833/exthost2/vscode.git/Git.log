@@ -1,0 +1,46 @@
+2024-12-05 03:18:52.889 [info] [main] Log level: Info
+2024-12-05 03:18:52.889 [info] [main] Validating found git in: "git"
+2024-12-05 03:18:52.889 [info] [main] Using git "2.40.1" from "git"
+2024-12-05 03:18:52.889 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-05 03:18:52.889 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-05 03:18:52.889 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 03:18:52.889 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-05 03:18:52.889 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-05 03:18:52.889 [info] [Model][openRepository] Opened repository: /home/ec2-user/dev
+2024-12-05 03:18:52.890 [info] > git config --get commit.template [4ms]
+2024-12-05 03:18:52.890 [info] > git rev-parse --show-toplevel [7ms]
+2024-12-05 03:18:52.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 03:18:52.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-05 03:18:52.890 [info] > git status -z -uall [4ms]
+2024-12-05 03:18:52.890 [info] > git rev-parse --show-toplevel [10ms]
+2024-12-05 03:18:52.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 03:18:52.890 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-05 03:18:52.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-05 03:18:52.890 [info] > git rev-parse --show-toplevel [20ms]
+2024-12-05 03:18:52.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 03:18:52.890 [info] > git config --get commit.template [9ms]
+2024-12-05 03:18:52.890 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-12-05 03:18:52.890 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-05 03:18:52.891 [info] > git rev-parse --show-toplevel [10ms]
+2024-12-05 03:18:52.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 03:18:52.891 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2024-12-05 03:18:52.891 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-05 03:18:52.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-05 03:18:52.891 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-05 03:18:52.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-05 03:18:52.891 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-12-05 03:18:52.891 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-05 03:18:52.891 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-05 03:18:52.891 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2024-12-05 03:18:52.891 [info] > git status -z -uall [5ms]
+2024-12-05 03:18:52.891 [info] > git diff --name-status -z --diff-filter=ADMR f3eb504f92aad5a0c9228fb077488f3450ab9f81...refs/remotes/origin/main [7ms]
+2024-12-05 03:18:52.891 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-05 03:18:53.453 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-05 03:18:53.594 [info] > git show --textconv :src/main/webapp/index.jsp [37ms]
+2024-12-05 03:18:53.595 [info] > git ls-files --stage -- /home/ec2-user/dev/src/main/webapp/index.jsp [31ms]
+2024-12-05 03:18:53.629 [info] > git cat-file -s b04aca142f6ff86274c0ed9c517be49ebd46c3e0 [5ms]
+2024-12-05 03:18:53.966 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-05 03:18:59.351 [info] > git config --get commit.template [3ms]
+2024-12-05 03:18:59.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-05 03:18:59.358 [info] > git status -z -uall [4ms]
+2024-12-05 03:18:59.363 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]

@@ -1,0 +1,16 @@
+2024-12-05 03:41:38.731 [info] Extension host with pid 36738 started
+2024-12-05 03:41:38.762 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/887937c7c1aac6d197dc7fd30b453ceb/vscode.lock': Lock acquired.
+2024-12-05 03:41:38.878 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-05 03:41:38.879 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-12-05 03:41:38.879 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-12-05 03:41:39.228 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-12-05 03:41:39.238 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-12-05 03:41:39.888 [info] Eager extensions activated
+2024-12-05 03:41:39.888 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-05 03:41:39.888 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-05 03:45:26.592 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-05 03:45:33.290 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-05 03:45:33.291 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-05 03:45:33.291 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-12-05 06:31:40.494 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2385
+2024-12-05 06:31:41.369 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2385
