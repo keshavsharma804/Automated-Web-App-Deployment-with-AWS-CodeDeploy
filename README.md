@@ -31,4 +31,4 @@ This project demonstrates an automated deployment pipeline for a web application
 - Feel free to modify and use the scripts for your own deployments.
 
 ## License
-[MIT](LICENSE)
+[Keshav Sharma](LICENS)
